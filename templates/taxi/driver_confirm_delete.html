@@ -10,4 +10,8 @@
     <input type="submit" value="Yes, delete" class="btn btn-danger" />
     <input type="submit" value="Cancel" class="btn btn-secondary" />
   </form>
+  <form action="" method="post">
+    {% csrf_token %}
+    <a href="driver_list.html" class="btn btn-secondary">Cancel</a>
+  </form>
 {% endblock %}
